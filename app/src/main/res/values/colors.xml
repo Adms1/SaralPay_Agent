@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- <color name="app_bg">#99eaff</color> -->
+    <color name="app_bg">#ffffff</color>
+    <color name="textbox_color">#0a0669</color>
+    <color name="design_change_d2">#003d71</color>
+    <color name="primary_dark">#00213e</color>
+    <color name="orange">#ff9623</color>
+    <color name="orange_selector">#F7A62C</color>
+    <color name="text_color">#434343</color>
+    <color name="gray_avaibility">#7f7f7f</color>
+    <color name="grey_days_selection">#f3f3f3</color>
+    <color name="dark_grey">#999999</color>
+    <color name="red_disable">#ff9292</color>
+    <color name="button_ripple">#0164B6</color>
+    <color name="color_st_name_gray">#666666</color>
+
+    <color name="male_selector">#8AD7FD</color>
+    <color name="female_selector">#FED6D7</color>
+
+    <!-- #49C1E8 -->
+
+    <color name="schedule_inactive">#D6D6D6</color>
+    <color name="schedule_active">#F7A62C</color>
+    <color name="student_back">#efefef</color>
+    <color name="gray_light">#c7c8ca</color>
+    <color name="header">#010066</color>
+    <color name="black">#111</color>
+    <color name="blue">#0073b9</color>
+    <color name="blue_payment_history">#F5F5F5</color>
+    <color name="blue_payment_history_text">#1A5C94</color>
+    <color name="gray">#ff5a5b5f</color>
+    <color name="white">#ffffff</color>
+    <color name="btn_blue">#010066</color>
+    <color name="text_blue">#010066</color>
+    <color name="red">#FF0000</color>
+    <color name="fragment_title_bg">#010066</color>
+    <color name="drawer_bg">#010066</color>
+    <color name="app_text">#2B2B2B</color>
+    <color name="sub_bg">#007BA6</color>
+    <color name="link">#034AF3</color>
+    <color name="button_selected">#005FB2</color>
+    <color name="purple">#9002dd</color>
+    <color name="green">#00f90c</color>
+    <color name="selectedButton">#0457d4</color>
+    <color name="helpcenter_tabSelected">#12538b</color>
+    <color name="text_blue_disable">#666587</color>
+    <color name="black_prefer_client">#666666</color>
+    <color name="black_prefer_client_blur">#d3d3d3</color>
+    <color name="green_trophy_room">#449d40</color>
+    <color name="green_trophy_room_details">#449d40</color>
+    <color name="separator_color">#EBEBEB</color>
+
+    <color name="color_all_screen_bg">#fefbeb</color>
+    <color name="login_btn_red">#ef1b27</color>
+    <color name="reg_btn_dark_blue">#002073</color>
+    <color name="reg_gray_bg">#8f8f8f</color>
+    <color name="yellow_line">#f7e35a</color>
+    <color name="dark_yellow_main_screen_bg">#eed002</color>
+    <color name="success_green">#3a8705</color>
+    <color name="reg_icon_yellow_bg">#F7E881</color>
+    <color name="dark_blue">#002073</color>
+    <color name="dark_grey_cancel_button">#484747</color>
+
+
+</resources>

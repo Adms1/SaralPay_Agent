@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:background="@color/reg_icon_yellow_bg"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnPersonalInfo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:src="@drawable/personal_info_icon" />
+
+            <TextView
+                android:id="@+id/txtPersonalInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/strPersonalInfo"
+                android:textColor="@color/reg_btn_dark_blue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnBusinessInfo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:src="@drawable/business_info_icon" />
+
+            <TextView
+                android:id="@+id/txtBusinessInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/strBusinessInfo"
+                android:textColor="@color/reg_btn_dark_blue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnTermsAndCond"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:src="@drawable/terms_cond_icon" />
+
+            <TextView
+                android:id="@+id/txtTermsAndCond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/strTermsCond"
+                android:textColor="@color/reg_btn_dark_blue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnUploadDoc"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitXY"
+                android:background="@android:color/transparent"
+                android:src="@drawable/upload_doc_icon" />
+
+            <TextView
+                android:id="@+id/txtUploadDoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/strUploadDoc"
+                android:textColor="@color/reg_btn_dark_blue"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/down_arrow_1"
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:src="@drawable/down_arrow"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/down_arrow_2"
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:src="@drawable/down_arrow"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/down_arrow_3"
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:src="@drawable/down_arrow"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/down_arrow_4"
+            android:layout_width="match_parent"
+            android:layout_height="13dp"
+            android:src="@drawable/down_arrow"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

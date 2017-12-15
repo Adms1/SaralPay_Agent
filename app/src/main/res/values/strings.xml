@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name_Agent">Saral Pay Agent</string>
+
+    <string-array name="array_step_names">
+        <item>Personal\nInformation</item>
+        <item>Business\nInformation</item>
+        <item>Terms &amp;\nConditions</item>
+        <item>Upload\nDocuments</item>
+    </string-array>
+
+    <string-array name="array_business_type">
+        <item>Select Business Type</item>
+        <item>Food/Restaurants</item>
+        <item>Entertainment</item>
+        <item>Clothes/Apparel</item>
+        <item>Grocery/Provision Store</item>
+        <item>Pharmacy/Medical/Hospital</item>
+        <item>Transportation/Freight</item>
+        <item>Workshop/Auto Mobile</item>
+        <item>Education/Professionals</item>
+        <item>Retail/Wholesale</item>
+        <item>Other Services</item>
+    </string-array>
+
+
+    <string name="strChooseLanguage">Choose Language</string>
+    <string name="strYouCanChangeLanguage">You can also change Language Preferences from the Menu button in the app</string>
+    <string name="strPhoneNumber">Phone Number  </string>
+    <string name="strPhone">Phone: </string>
+    <string name="strPinPwd">Pin/Password</string>
+    <string name="strPin">Pin</string>
+    <string name="strLogin">LOG IN</string>
+    <string name="strForgotPwd">Forgot Password?</string>
+    <string name="strREGISTER">REGISTER NEW USER</string>
+    <string name="strForNewUsers">(For New Users)</string>
+    <string name="strEnterRegdMobNum">Enter your registered mobile number</string>
+    <string name="strRegdMobNum">Registered Mobile Number</string>
+    <string name="strSendOtp">Send OTP</string>
+    <string name="strConfirmPin">Confirm Pin/Password</string>
+    <string name="strChangePwd">CHANGE PASSWORD</string>
+    <string name="strCancel">CANCEL</string>
+    <string name="strMobNotReg">This mobile number is not registered with us. Please enter a registered mobile number.</string>
+    <string name="strResend">Resend</string>
+    <string name="strSend">Send</string>
+    <string name="strOtpMesgText">Code has been sent to your registered number. Enter the code to verify your account.</string>
+    <string name="strYour">Your New Pin has been updated successfully.</string>
+    <string name="strPlConfirmPin">Please confirm Pin</string>
+    <string name="strPlEnterPin">Please enter Pin</string>
+    <string name="strPinNotMatch">Pin do not match. Please try again</string>
+    <string name="strBussName">Business Name</string>
+    <string name="strContactName">Contact Name</string>
+    <string name="strCityName">City Name</string>
+    <string name="strIAccTermsAndCond">I accept the terms and conditions</string>
+    <string name="strPROCEED">PROCEED</string>
+    <string name="strThanksYouReg">Thank You For Registering With Saral Pay</string>
+    <string name="strYourFreeTrail">Your  10 DAY FREE TRIAL has started</string>
+    <string name="strUsingFreePer">Using the App after free period will make you a premium account holder automatically </string>
+    <string name="strStopTrial">To stop your trial go to my profile and click on OPT OUT</string>
+    <string name="strUpgradePrem">Upgrade to premium NOW</string>
+    <string name="strFreeUpg">Free Upgrade to version 2.0    </string>
+    <string name="strFreeSaralReader">Free SARAL READER</string>
+    <string name="strPayFee">As low as 3%  Payment Processing Fee Rs. 1200/Yr maintainence fee   </string>
+    <string name="strPayout">Payout in as soon as 3 days</string>
+    <string name="strDM">DEAR MERCHANT</string>
+    <string name="strZeroBal">You Have 0 Rs Balance With Us.</string>
+    <string name="strKYC">Please Provide KYC Documents to transfer the Balance into Your Bank Account"</string>
+    <string name="strFrontAadhar">Front Side Image of Aadhar Card</string>
+    <string name="strBackAadhar">Back Side Image of Aadhar Card</string>
+    <string name="strFrontPan">Front Side Image of PAN Card</string>
+    <string name="strBackPan">Back Side Image of PAN Card</string>
+    <string name="strFirstChekBook">First Page of Cheque Book</string>
+    <string name="strPlEntAmt">Please enter the amount to be charged</string>
+    <string name="strAmount">Amount</string>
+    <string name="strNarration">Narration</string>
+    <string name="strCHARGE">CHARGE</string>
+    <string name="strCANCEL">CANCEL</string>
+    <string name="strStartDate">Start Date</string>
+    <string name="strEndDate">End Date</string>
+    <string name="strShow">Show</string>
+    <string name="strNoResFou">No Results Found !!!</string>
+    <string name="strSuccess">Success  </string>
+    <string name="strYourTranSucc">Your Transaction was successful</string>
+    <string name="strTransactionID">Transaction ID</string>
+    <string name="strValue">Value</string>
+    <string name="strEntMobNum">Enter mobile number   </string>
+    <string name="strSendReceipt">Send receipt  </string>
+    <string name="strNewCharge">New Charge   </string>
+    <string name="strTryAgain">Your transaction was not successful. Please try again with another card.</string>
+    <string name="strFailure">Failure</string>
+    <string name="strEmail">Email: </string>
+    <string name="strPersonalInfo">Personal Information</string>
+    <string name="strBusinessInfo">Business Information</string>
+    <string name="strTermsCond">Terms &amp;\nConditions</string>
+    <string name="strUploadDoc">Upload\nDocuments</string>
+    <string name="strOPTOut">OPT OUT</string>
+    <string name="strFirstName">First name</string>
+    <string name="strLastName">Last Name</string>
+    <string name="strAddress1">Address 1</string>
+    <string name="strAddress2">Address 2</string>
+    <string name="strPincode">Pincode</string>
+    <string name="strEmailAdd">Email Addrsss</string>
+    <string name="strAadharFront">Front Page of Aadhar Card or PAN Card</string>
+    <string name="strAadharBack">Back Page of Aadhar Card or PAN Card</string>
+    <string name="strCompanyName">Company Name</string>
+    <string name="strBankName">Bank Name</string>
+    <string name="strBankBranch">Bank Branch</string>
+    <string name="strAccNum">Account Number</string>
+    <string name="strIFSCCode">IFSC Code</string>
+    <string name="strCurrAcc">Currrent Account Cheque Book First Page</string>
+    <string name="strTermsAndCond">I accept the terms and conditions</string>
+    <string name="strAccPayment">I permit saral pay to accept payment on my behalf</string>
+    <string name="strMyProfile">My KYC</string>
+    <string name="strMyReport">My Report</string>
+    <string name="strHome">Home</string>
+    <string name="strHelpAndSupport">Help &amp; Support </string>
+    <string name="strLogOut">Log Out</string>
+    <string name="strLanguage">Language</string>
+    <string name="strChargeNarration">This charge is for (typename) at (companyName) on (date@time)</string>
+    <string name="strPleaseIfscCode">Please enter IFSC Code</string>
+    <string name="strPleaseAccNumber">Please enter Account Number</string>
+    <string name="strPleaseBankBranch">Please enter Bank Branch</string>
+    <string name="strPleaseBankName">Please enter Bank Name</string>
+    <string name="strPleaseCompName">Please enter Company Name</string>
+    <string name="strPleasePwd">Please enter Password</string>
+    <string name="strPleasePhoneNum">Please enter Phone Number</string>
+    <string name="strPleaseEmailAdd">Please enter Email Address </string>
+    <string name="strPleasePinCode">Please enter Pin Code</string>
+    <string name="strPleaseEntCity">Please enter City</string>
+    <string name="strPleaseState">Please enter State</string>
+    <string name="strPleaseAdd1">Please enter Address 1</string>
+    <string name="strPleaseLN">Please enter Last Name</string>
+    <string name="strPleaseFN">Please enter First Name</string>
+    <string name="strEnterAmt">Enter an amount  </string>
+    <string name="strLoginSucc">Login Successful</string>
+    <string name="strLoginUnSucc">Please check your phone number or password</string>
+    <string name="strCongPremUpgrade">Congratulation, You have been upgraded to Premium Membership</string>
+    <string name="strPinDoNotMatch">Pin do not match. Please try again</string>
+    <string name="strPinUpdated">Your New Pin has been updated successfully.</string>
+    <string name="strOtpNotMatch">Enter OTP does not match. Please try again</string>
+    <string name="strNumberAlreadyReg">This mobile number is not registered with us. Please enter a registered mobile number.</string>
+    <string name="strPaymentSuccess">Payment Successful</string>
+    <string name="strPaymentUnSuccess">Payment UnSuccessfull</string>
+    <string name="strEnterBussName">Enter your business name</string>
+    <string name="strEnterBussType">Select a business type</string>
+    <string name="strEnterContactName">Enter a contact name</string>
+    <string name="strCity">Enter a city</string>
+    <string name="strStateInfo">Please Enter a StateInfo</string>
+    <string name="strEnterPhoneNumber">Enter a 10 digit phone number</string>
+    <string name="strEnterPin">Enter a 4 digit pin</string>
+    <string name="strAcceptTermsCond">Please Accept the Terms of Service before proceeding</string>
+
+    <!--QRSCAN String-->
+    <string name="app_name_client">Saral Pay Client</string>
+    <string name="strMarchantId">Phone Number</string>
+    <string name="strEmailvalidation">Invalid email address</string>
+    <string name="strQRcode">Click to Scan QR Code</string>
+    <string name="strFirstNamevalidation">Invalid First Name</string>
+    <string name="strLastNamevalidation">Invalid Last Name</string>
+    <string name="strQRUnSucc">QR Code Does not match.</string>
+    <string name="strMobileUnSucc">Mobile number Does not found</string>
+    <string name="strQRSucc">Scan Successfully</string>
+    <string name="strBlankMobile">Please Enter Mobile Number</string>
+    <string name="strSaralPayOnlineAgent">SARAL PAY AGENT APP </string>
+    <string name="strQRcodeScan">Please Scan QR Code</string>
+    <string name="strwrongNumber">Please Enter 10 digit number.</string>
+    <string name="strnumberblank">Please Enter the mobile number.</string>
+</resources>

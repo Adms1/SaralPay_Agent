@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnProeed"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/layout_tabs"
+        android:paddingBottom="10dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtCompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:background="@drawable/box1"
+                android:maxLines="1"
+                android:hint="@string/strLastName"
+                android:padding="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <Spinner
+                android:id="@+id/spinBusinessType"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/address_box_dd"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:padding="10dp" />
+
+            <!--<EditText
+                android:id="@+id/edtBusinessType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box1"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:hint="Business Type"
+                android:layout_weight="1"
+                android:padding="10dp" />-->
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edtBankName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box1"
+                android:hint="@string/strBankName"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:padding="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edtBankBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box1"
+                android:hint="@string/strBankBranch"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:padding="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edtAccountNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box1"
+                android:inputType="number"
+                android:hint="@string/strAccNum"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:layout_weight="1"
+                android:padding="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/edtIfscCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box1"
+                android:maxLines="1"
+                android:hint="@string/strIFSCCode"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:padding="10dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/txtChequebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="@string/strCurrAcc"
+                android:layout_weight="1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/imgbtnChequeBook"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@drawable/add_photo_trans"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:padding="5dp" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
+</LinearLayout>

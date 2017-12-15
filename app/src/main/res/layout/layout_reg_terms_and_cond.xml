@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/llWebview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <WebView
+                android:id="@+id/wvTermsOfService"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <CheckBox
+            android:id="@+id/chkTermsAndCondi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strIAccTermsAndCond"
+            android:textColor="@color/gray" />
+
+        <CheckBox
+            android:id="@+id/chkAcceptPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAccPayment"
+            android:textColor="@color/gray" />
+
+    </LinearLayout>
+
+</LinearLayout>
